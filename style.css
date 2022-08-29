@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:black;
+    font-family:'Times New Roman', Times, serif;
+    width:100%;
+}
+
+h1{
+    padding: 5px;
+    color:white;
+    text-align: center;
+    justify-content: center;
+    border:2px solid white;
+    border-radius: 10px;
+    background-image: linear-gradient(to right,rgb(240, 66, 23) ,rgb(43, 41, 168),rgb(240,66,23));
+}
+.container{
+    justify-content: center;
+    text-align: center;
+
+}
+
+label,span{
+    font-size: 15px;
+    font-weight: 900;
+    color:white;
+}
+
+input{
+    background-color:rgb(43,41,168) ;
+    color: white;
+}
+
+button{
+    margin-left:100px;
+    padding: 5px;
+    font-size: 15px;
+    font-weight: 700;
+    border-radius: 10px;
+    color: white;
+    background-color:rgb(43,41,168);
+}
+
+#canvas{
+    margin: auto;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    border:2px solid white;
+    border-radius: 10px;
+} 
