@@ -28,5 +28,8 @@ ctx.stroke()
 ctx.closePath()
 
     }
+     if(n<=2){
+        alert("Number should be greater the 2")
+    }
 }
 
