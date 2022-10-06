@@ -4,6 +4,9 @@ const ctx=canvas.getContext('2d')
 const input=document.getElementById("input");        
 const circleradius=230;
 
+canvas.fillStyle='#f75252';
+canvas.stroke='#f75252';
+   
 
 // ctx.stroke()
 
@@ -23,10 +26,13 @@ ctx.closePath()
 ctx.strokeStyle='red';//`rgb(${parseInt(Math.random()*250)},${parseInt(Math.random()*250)},${parseInt(Math.random()*250)})`
 ctx.lineWidth='5';
 ctx.fillStyle='rgb(240, 66, 23)';
+  
 ctx.fill();
-ctx.stroke()
-ctx.closePath()
+ctx.stroke();
+ctx.closePath();
 
     }
+    if(n<=2){
+        alert("Number should be greater the 2")
+    }
 }
-
